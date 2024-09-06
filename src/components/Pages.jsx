@@ -6,7 +6,12 @@ function Pages() {
     { id: 2, name: "Moon", url: "/images/moon.webp" },
     { id: 3, name: "Jupiter", url: "/images/europa.webp" },
   ];
+  const [isVisible, setIsVisible] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
   const [positions, setPositions] = useState(
     ArrayofPlanets.map(() => ({ x: 0, y: 0 }))
   );
@@ -77,8 +82,24 @@ function Pages() {
       <div className="absolute inset-0 bg-black/70"></div>
       {/* Darkens the background */}
       <div className="relative z-10 ">
-        <h2 className="text-center text-white text-lg mb-4 uppercase">
-          Try to drag and Drop the Planets ⬇ imagine yourself in the space
+        <h2
+          className={`text-center text-white text-lg mb-4 uppercase transition-all duration-1000 ease-in-out ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+          }`}>
+          <span
+            className={`inline-block transition-all duration-300 ${
+              isHovered ? "text-gray-900 scale-110" : ""
+            }`}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>
+            Try to drag and Drop the Planets ⬇
+          </span>
+          <span
+            className={`inline-block mt-2 transition-opacity duration-1000 ${
+              isVisible ? "opacity-100" : "opacity-0"
+            }`}>
+            imagine yourself in the space
+          </span>
         </h2>
         <div
           className="flex flex-wrap items-center justify-center gap-4"

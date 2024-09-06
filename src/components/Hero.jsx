@@ -14,9 +14,11 @@ function Hero() {
             of a page when looking at its layout. The point of using Lorem
             Ipsum.
           </p>
-          <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+          <a
+            href="#space-content"
+            className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
             Start Your Adventure
-          </button>
+          </a>
         </div>
       </div>
     </div>

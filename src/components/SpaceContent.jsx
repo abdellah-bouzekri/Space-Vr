@@ -7,6 +7,7 @@ export default function SpaceContent() {
 
   return (
     <div
+      id="space-content"
       className="bg-cover bg-center min-h-screen bg-no-repeat w-full"
       style={{ backgroundImage: "url('/images/2560x1440.webp')" }}>
       <div className="bg-black/70 min-h-screen flex flex-col justify-start items-center px-4 md:px-8 py-8 md:py-16 space-y-8">
