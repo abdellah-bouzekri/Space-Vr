@@ -60,7 +60,7 @@ const Contact = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat "
         style={{
-          backgroundImage: "url('/images/sky.jpg')",
+          backgroundImage: "url('/images/sky.webp')",
         }}></div>
       <div className="relative z-10 grid sm:grid-cols-2 items-start p-4 mx-auto max-w-4xl min-h-screen bg-black/70">
         <div>

@@ -2,7 +2,7 @@ import React from "react";
 const SliderCardsImg = [
   {
     id: 1,
-    src: "/images/Card1.png",
+    src: "/images/Card1.webp",
     Details:
       "Asteroid 2023DW, a newly discovered near-Earth object, is expected to make a close approach to Earth. Although it will pass safely by, it will be monitored closely by astronomers",
     bgColor: "bg-slate-900",
@@ -10,7 +10,7 @@ const SliderCardsImg = [
   },
   {
     id: 2,
-    src: "/images/Orange Solar Eclipse Spiritual Quote Musical Mobile Video.jpg",
+    src: "/images/Orange Solar Eclipse Spiritual Quote Musical Mobile Video.webp",
     Details:
       "An annular solar eclipse will be visible in parts of South America, the Atlantic Ocean, and West Africa. During this event, the Moon will cover the Sun's center, leaving a ring-like appearance.",
     bgColor: "bg-violet-900",
@@ -18,7 +18,7 @@ const SliderCardsImg = [
   },
   {
     id: 3,
-    src: "/images/Card3.png",
+    src: "/images/Card3.webp",
     Details:
       "A total lunar eclipse will be visible across parts of North America, Europe, and Africa. The Moon will pass through Earth's shadow, causing a blood-red appearance and more stuff bro you feel me man.",
     bgColor: "bg-slate-900",

@@ -1,14 +1,14 @@
 export default function SpaceContent() {
   const Cards = [
-    { img1: "/images/space2.jpg" },
-    { img1: "/images/space3.jpg" },
-    { img1: "/images/space4.jpg" },
+    { img1: "/images/space2.webp" },
+    { img1: "/images/space3.webp" },
+    { img1: "/images/space4.webp" },
   ];
 
   return (
     <div
       className="bg-cover bg-center min-h-screen bg-no-repeat w-full"
-      style={{ backgroundImage: "url('/images/2560x1440.jpg')" }}>
+      style={{ backgroundImage: "url('/images/2560x1440.webp')" }}>
       <div className="bg-black/70 min-h-screen flex flex-col justify-start items-center px-4 md:px-8 py-8 md:py-16 space-y-8">
         <div className="max-w-7xl w-full flex flex-col md:flex-row justify-between items-center gap-8 md:gap-16">
           {/* Text Section */}
@@ -32,7 +32,7 @@ export default function SpaceContent() {
           {/* Image Section */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="/images/space-flex.jpg"
+              src="/images/space-flex.webp"
               alt="Futuristic Landscape"
               className="w-full max-w-md lg:max-w-xl h-auto object-cover"
               loading="lazy"

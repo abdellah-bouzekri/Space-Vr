@@ -39,7 +39,7 @@ function Accor() {
       <div
         className=" md:p-8 p-3 text-white bg-cover bg-center bg-no-repeat  min-h-screen w-full"
         style={{
-          backgroundImage: "url('/images/background-destination-desktop.jpg')",
+          backgroundImage: "url('/images/background-destination-desktop.webp')",
         }}>
         <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-8 text-center">
           Pick your destination
@@ -93,7 +93,7 @@ function Accor() {
       <div
         className="bg-cover bg-center min-h-screen bg-no-repeat w-full p-4 text-white"
         style={{
-          backgroundImage: "url('/images/background-destination-desktop.jpg')",
+          backgroundImage: "url('/images/background-destination-desktop.webp')",
         }}>
         <Stories
           question="Dark Matter and Dark Energy?"
