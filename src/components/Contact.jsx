@@ -56,7 +56,7 @@ const Contact = () => {
     });
   }
   return (
-    <div className="relative min-h-screen w-full flex  ">
+    <div className="relative min-h-screen w-full flex ">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat "
         style={{
@@ -95,7 +95,7 @@ const Contact = () => {
             </ul>
           </div>
 
-          <div className="mt-12">
+          <div className="mt-12 ">
             <h2 className="text-white text-base font-bold">Socials</h2>
 
             <ul className="flex mt-4 space-x-4">

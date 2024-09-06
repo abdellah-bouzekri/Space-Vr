@@ -53,7 +53,7 @@ function FooterBanner() {
                 <button onClick={handlePrevClick}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-gray-400 hover:text-gray-300 transition-colors duration-300"
+                    className="h-8 w-8 text-gray-950 hover:text-gray-300 transition-colors duration-300"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -70,7 +70,7 @@ function FooterBanner() {
                 <button onClick={handleNextClick}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 text-gray-400 hover:text-gray-300 transition-colors duration-300"
+                    className="h-8 w-8 text-gray-950 hover:text-gray-300 transition-colors duration-300"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor">
